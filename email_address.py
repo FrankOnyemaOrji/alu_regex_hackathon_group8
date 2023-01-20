@@ -5,8 +5,8 @@ text = input("Enter text>> ")
 match = email_pattern.search(text)
 print(match)
 
-matches = email_pattern.finditer(text)
-for match in matches:
+results = email_pattern.finditer(text)
+for match in results:
     print(f"Your email(s) found are {match.group()}")
 
 
