@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import re
 email_pattern = re.compile(r'[\w.-]+@[\w.-]+')
 
